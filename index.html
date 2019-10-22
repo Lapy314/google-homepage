@@ -2,17 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Vjezba</title>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form >
-      Ime: <input type="text" name="ime"><br>
-      Email: <input type="email" name="email"><br>
-      Password: <input type="password"><br>
-      <p>Spol: </p>
-      Muski<input type="radio" name="spol" value="muski"><br>
-      Zenski<input type="radio" name="spol" value="zenski"><br>
-      <input type="submit" name="submit" value="submit">
-    </form>
+    <div class="wrapper">
+      <div class="g-img">
+        <img src="googlelogo.png" alt="logo">
+      </div>
+
+      <div class="search">
+        <input type="text" name="search"><br>
+        <input type="submit" name="submit-btn" value="Search">
+        <input type="submit" name="lck-btn" value="I'm Feeling Lucky">
+      </div>
+    </div>
   </body>
 </html>
