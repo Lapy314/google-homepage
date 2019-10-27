@@ -22,6 +22,32 @@ nav ul li {
   padding-right: 10px;
 }
 
+#search {
+  width: 525px;
+  padding: 12px;
+  border: 1.2px solid #dfe1e5;
+  border-radius: 25px;
+}
+
+.btn {
+  width: 12.5%;
+  padding: 10px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #797971;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#mic {
+  width:16px;
+  position: absolute;
+  right: 700px;
+  bottom: 568px;
+}
+
 .google {
   padding-top: 20%;
 }
@@ -37,6 +63,10 @@ nav ul li {
 
 .google p {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 footer {
@@ -76,7 +106,7 @@ footer:after {
 }
 
 hr {
-  border: 0.8px solid #e4e4e4;
+  border: 0.5px solid #e4e4e4;
 }
 
 .hr-top {
