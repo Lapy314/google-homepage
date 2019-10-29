@@ -10,6 +10,11 @@ body {
   margin-left: 110px;
 }
 
+.wrapper2 {
+  margin-left: 150px;
+  width: 650px;
+}
+
 .google {
   margin-top: 20px;
 }
@@ -50,4 +55,111 @@ nav li {
 
 hr {
   border: 0.2px solid #dfe1e5;
+}
+
+.site-title {
+  text-decoration: none;
+}
+
+.site-title h2 {
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.site {
+  text-decoration: none;
+  color: #0f6a27;
+}
+
+#table {
+  border: 1px solid #dfe1e5;
+  color: black;
+  border-bottom: none;
+}
+
+#table h2 {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #dfe1e5;
+  font-weight: normal;
+}
+
+#table h3 {
+  border-bottom: 1px solid #dfe1e5;
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+}
+
+#videos {
+  color: black;
+  font-weight: normal;
+}
+
+.video-div {
+  display: inline;
+  width: 200px;
+  border: 1px solid black;
+  color: black;
+  height: 300px;
+}
+
+.free-sites {
+  border: 1px solid #dfe1e5;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.free-sites ul {
+  list-style: none;
+}
+
+.free-sites li {
+  display: inline;
+}
+
+#searches {
+  font-weight: normal;
+  color: black;
+}
+
+.related ul {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.related li {
+  color: blue;
+}
+
+#related-ul1 {
+  float: left;
+}
+
+#related-ul2 {
+  float: right;
+}
+
+.related:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+
 }
